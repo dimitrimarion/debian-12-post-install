@@ -7,7 +7,7 @@ sudo dpkg-reconfigure keyboard-configuration
 
 ## TODO: configure git
 ## TODO: git clone config: vim, i3 
-## TODO: show volume indicator
+## TODO: show volume indicato
 #
 
 ## Network
@@ -17,7 +17,7 @@ sudo apt install -y network-manager-gnome
 sudo apt install -y pavucontrol pulseaudio pulseaudio-utils pasystray paprefs pavumeter pulseaudio-module-zeroconf
 
 # Hack nerd fonts
-sudo apt install -y curl
+sudo apt install -y curl unzip
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 mkdir -p ~/.local/share/fonts
 unzip Hack.zip -d ~/.local/share/fonts/
