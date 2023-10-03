@@ -5,16 +5,21 @@ sudo apt install -y xorg i3
 cp -R config/i3 ~/.config
 sudo dpkg-reconfigure keyboard-configuration
 
-## TODO: configure git
-## TODO: git clone config: vim, i3 
-## TODO: show volume indicato
-#
+# TODO: configure git
+# TODO: show volume indicator with keyboard
+# TODO: bluetooth
+# TODO: font
+# TODO: laptop power management
+# TODO: vlc, codec
 
 ## Network
 sudo apt install -y network-manager-gnome
 
 # Sound
 sudo apt install -y pavucontrol pulseaudio pulseaudio-utils pasystray paprefs pavumeter pulseaudio-module-zeroconf
+
+# Sound
+sudo apt install blueman pulseaudio-module-bluetooth
 
 # Hack nerd fonts
 sudo apt install -y curl unzip
