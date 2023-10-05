@@ -7,10 +7,10 @@ sudo dpkg-reconfigure keyboard-configuration
 
 # TODO: configure git
 # TODO: show volume indicator with keyboard
-# TODO: bluetooth
 # TODO: font
 # TODO: laptop power management
 # TODO: vlc, codec
+# TODO: default editor
 
 ## Network
 sudo apt install -y network-manager-gnome
@@ -22,7 +22,7 @@ sudo apt install -y pavucontrol pulseaudio pulseaudio-utils pasystray paprefs pa
 sudo apt install blueman pulseaudio-module-bluetooth
 
 # Hack nerd fonts
-sudo apt install -y curl unzip
+sudo apt install -y curl unzip zip
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 mkdir -p ~/.local/share/fonts
 unzip Hack.zip -d ~/.local/share/fonts/
@@ -39,6 +39,12 @@ cd -
 # vim
 sudo apt install -y vim
 cp config/vimrc ~/.vimrc
+
+# file manager
+sudo apt install -y pcmanfm
+
+# mail
+sudo apt install -y sylpheed sylpheed-plugins
 
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
