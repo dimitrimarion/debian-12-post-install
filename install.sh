@@ -11,6 +11,9 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: laptop power management
 # TODO: vlc, codec
 # TODO: default editor
+# TODO: printer
+# TODO: chromium
+# TODO: starship
 
 ## Network
 sudo apt install -y network-manager-gnome
@@ -44,7 +47,13 @@ cp config/vimrc ~/.vimrc
 sudo apt install -y pcmanfm
 
 # mail
+# gmail sign in with app passwords: https://support.google.com/mail/answer/185833?hl=en
 sudo apt install -y sylpheed sylpheed-plugins
+
+# pdf
+sudo apt install -y zathura
+mkdir ~/.config/zathura
+cp config/zathurarc ~/.config/zathura/zathurarc
 
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
