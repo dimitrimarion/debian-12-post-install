@@ -14,6 +14,13 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: printer
 # TODO: chromium
 # TODO: starship
+# TODO: docker
+# TODO: vscode
+# TODO: node
+# TODO: image viewer
+# TODO: keepassxc
+# TODO: copy file type associations
+# TODO: screenshot
 
 ## Network
 sudo apt install -y network-manager-gnome
@@ -54,6 +61,8 @@ sudo apt install -y sylpheed sylpheed-plugins
 sudo apt install -y zathura
 mkdir ~/.config/zathura
 cp config/zathurarc ~/.config/zathura/zathurarc
+
+# image viewer
 
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
