@@ -28,7 +28,7 @@ sudo apt install -y network-manager-gnome
 # Sound
 sudo apt install -y pavucontrol pulseaudio pulseaudio-utils pasystray paprefs pavumeter pulseaudio-module-zeroconf
 
-# Sound
+# Bluetooth 
 sudo apt install blueman pulseaudio-module-bluetooth
 
 # Hack nerd fonts
@@ -52,6 +52,14 @@ cp config/vimrc ~/.vimrc
 
 # file manager
 sudo apt install -y pcmanfm
+
+# file viewer
+sudo apt install -y nsxiv
+sudo cp bin/cnsxiv /usr/local/bin
+sudo chmod +x /usr/local/bin
+mkdir -p ~/.local/share/applications
+cp application/* ~/.local/share/applications
+cp config/mimeapps.list ~/.config
 
 # mail
 # gmail sign in with app passwords: https://support.google.com/mail/answer/185833?hl=en
