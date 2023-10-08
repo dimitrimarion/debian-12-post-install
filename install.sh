@@ -9,7 +9,7 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: show volume indicator with keyboard
 # TODO: font
 # TODO: laptop power management
-# TODO: vlc, codec
+# TODO: mpv, codec
 # TODO: default editor
 # TODO: printer
 # TODO: chromium
@@ -20,7 +20,8 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: image viewer
 # TODO: keepassxc
 # TODO: copy file type associations
-# TODO: screenshot
+# TODO: screensho
+# TODO: update alternative: default terminal (st in /usr/local/bin), browser, editor
 
 ## Network
 sudo apt install -y network-manager-gnome
@@ -29,7 +30,7 @@ sudo apt install -y network-manager-gnome
 sudo apt install -y pavucontrol pulseaudio pulseaudio-utils pasystray paprefs pavumeter pulseaudio-module-zeroconf
 
 # Bluetooth 
-sudo apt install blueman pulseaudio-module-bluetooth
+sudo apt install -y blueman pulseaudio-module-bluetooth
 
 # Hack nerd fonts
 sudo apt install -y curl unzip zip
@@ -78,7 +79,7 @@ cp config/zathurarc ~/.config/zathura/zathurarc
 
 
 ###
-sudo apt install tldr xsel
+sudo apt install -y tldr xsel
 
 ## git clone dt wallpapers
 ## 
