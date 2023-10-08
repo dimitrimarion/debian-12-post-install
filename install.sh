@@ -2,7 +2,8 @@
 
 # https://wiki.debian.org/Xorg
 sudo apt install -y xorg i3
-cp -R config/i3 ~/.config
+mkdir -p ~/.config/i3
+cp config/i3/* ~/.config/i3
 sudo dpkg-reconfigure keyboard-configuration
 
 # TODO: configure git
@@ -79,7 +80,7 @@ cp config/zathurarc ~/.config/zathura/zathurarc
 
 
 ###
-sudo apt install -y tldr xsel
+sudo apt install -y tldr xsel htop
 
 ## git clone dt wallpapers
 ## 
