@@ -10,7 +10,6 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: show volume indicator with keyboard
 # TODO: font
 # TODO: laptop power management
-# TODO: mpv, codec
 # TODO: default editor
 # TODO: printer
 # TODO: chromium
@@ -71,6 +70,9 @@ sudo apt install -y sylpheed sylpheed-plugins
 sudo apt install -y zathura
 mkdir ~/.config/zathura
 cp config/zathurarc ~/.config/zathura/zathurarc
+
+# video player
+sudo apt install -y mpv
 
 # image viewer
 
