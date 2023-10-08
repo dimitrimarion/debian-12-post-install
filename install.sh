@@ -60,7 +60,7 @@ sudo apt install -y nsxiv
 sudo cp bin/cnsxiv /usr/local/bin
 sudo chmod +x /usr/local/bin
 mkdir -p ~/.local/share/applications
-cp application/* ~/.local/share/applications
+cp applications/* ~/.local/share/applications
 cp config/mimeapps.list ~/.config
 
 # mail
