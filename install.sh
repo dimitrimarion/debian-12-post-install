@@ -20,7 +20,7 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: image viewer
 # TODO: keepassxc
 # TODO: copy file type associations
-# TODO: screensho
+# TODO: screenshot
 # TODO: update alternative: default terminal (st in /usr/local/bin), browser, editor
 
 ## Network
@@ -54,7 +54,7 @@ cp config/vimrc ~/.vimrc
 # file manager
 sudo apt install -y pcmanfm
 
-# file viewer
+# image viewer
 sudo apt install -y nsxiv
 sudo cp bin/cnsxiv /usr/local/bin
 sudo chmod +x /usr/local/bin
@@ -74,7 +74,9 @@ cp config/zathurarc ~/.config/zathura/zathurarc
 # video player
 sudo apt install -y mpv
 
-# image viewer
+# screenshot
+sudo apt install -y flameshot
+
 
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
