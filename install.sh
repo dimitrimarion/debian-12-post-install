@@ -49,6 +49,7 @@ cd -
 # vim
 sudo apt install -y vim
 cp config/vimrc ~/.vimrc
+sudo update-alternatives --set editor /usr/bin/vim.basic
 
 # file manager
 sudo apt install -y pcmanfm
