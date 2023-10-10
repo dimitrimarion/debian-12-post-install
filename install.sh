@@ -20,7 +20,6 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: image viewer
 # TODO: keepassxc
 # TODO: copy file type associations
-# TODO: screenshot
 # TODO: update alternative: default terminal (st in /usr/local/bin), browser, editor
 
 ## Network
@@ -76,6 +75,10 @@ sudo apt install -y mpv
 
 # screenshot
 sudo apt install -y flameshot
+
+# pager
+sudo apt install -y most
+sudo update-alternatives --set pager /usr/bin/pager
 
 
 # Deactivate laptop monitor if external connected 
