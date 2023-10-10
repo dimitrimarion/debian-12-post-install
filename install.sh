@@ -44,6 +44,8 @@ sudo apt install -y xorg-dev build-essential git
 git clone https://github.com/dimitrimarion/st-flexipatch.git
 cd st-flexipatch
 sudo make clean install
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/local/bin/st 40
+sudo update-alternatives --set x-terminal-emulator /usr/local/bin/st
 cd -
 
 # vim
@@ -79,7 +81,7 @@ sudo apt install -y flameshot
 
 # pager
 sudo apt install -y most
-sudo update-alternatives --set pager /usr/bin/pager
+sudo update-alternatives --set pager /usr/bin/most
 
 
 # Deactivate laptop monitor if external connected 
