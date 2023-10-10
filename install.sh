@@ -13,7 +13,6 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: printer
 # TODO: chromium
 # TODO: starship
-# TODO: docker
 # TODO: vscode
 # TODO: node
 # TODO: copy file type associations
@@ -85,6 +84,10 @@ sudo apt install -y keepassxc
 # docker
 sudo apt install -y docker-compose
 sudo usermod -aG docker $USER
+
+# starship
+curl -sS https://starship.rs/install.sh | sh
+cp config/.bashrc ~/.bashrc
 
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
