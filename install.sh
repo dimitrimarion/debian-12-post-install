@@ -10,17 +10,13 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: show volume indicator with keyboard
 # TODO: font
 # TODO: laptop power management
-# TODO: default editor
 # TODO: printer
 # TODO: chromium
 # TODO: starship
 # TODO: docker
 # TODO: vscode
 # TODO: node
-# TODO: image viewer
-# TODO: keepassxc
 # TODO: copy file type associations
-# TODO: update alternative: default terminal (st in /usr/local/bin), browser, editor
 
 ## Network
 sudo apt install -y network-manager-gnome
@@ -83,6 +79,12 @@ sudo apt install -y flameshot
 sudo apt install -y most
 sudo update-alternatives --set pager /usr/bin/most
 
+# password manager
+sudo apt install -y keepassxc
+
+# docker
+sudo apt install -y docker-compose
+sudo usermod -aG docker $USER
 
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
