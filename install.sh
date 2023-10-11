@@ -87,7 +87,7 @@ cp config/.bashrc ~/.bashrc
 
 # node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-source ~/.bashrc
+. ~/.bashrc
 nvm install --lts
 
 # vscode
