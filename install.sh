@@ -12,7 +12,6 @@ sudo dpkg-reconfigure keyboard-configuration
 # TODO: laptop power management
 # TODO: printer
 # TODO: chromium
-# TODO: starship
 # TODO: vscode
 # TODO: node
 # TODO: copy file type associations
@@ -88,6 +87,11 @@ sudo usermod -aG docker $USER
 # starship
 curl -sS https://starship.rs/install.sh | sh
 cp config/.bashrc ~/.bashrc
+
+# node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+source ~/.bashrc
+nvm install --lts
 
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
