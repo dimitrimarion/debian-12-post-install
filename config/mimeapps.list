@@ -2,8 +2,10 @@
 image/jpeg=userapp-cnsxiv-L24FC2.desktop;nsxiv.desktop;userapp-ls *.jpg-BXZTC2.desktop;
 image/png=userapp-cnsxiv-FK6MC2.desktop;
 image/gif=userapp-cnsxiv-JBOOC2.desktop;
+text/plain=vim.desktop;
 
 [Default Applications]
 image/jpeg=userapp-cnsxiv-L24FC2.desktop
+text/plain=vim.desktop
 
 [Removed Associations]
