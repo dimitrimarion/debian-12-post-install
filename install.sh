@@ -9,9 +9,11 @@ mkdir -p ~/.config/i3
 cp config/i3/* ~/.config/i3
 sudo dpkg-reconfigure keyboard-configuration
 
-cp config/user-dirs.dirs ~/.config/
-mkdir ~/data
-xdg-user-dirs-update
+cp config/user-dirs.dirs ~/.config/user-dirs.dirs
+mkdir ~/data/Documents
+mkdir ~/data/Pictures
+mkdir ~/data/Music
+mkdir ~/data/Videos
 
 # TODO: configure git
 # TODO: show volume indicator with keyboard
