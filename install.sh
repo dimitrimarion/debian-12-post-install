@@ -108,9 +108,8 @@ cp config/.profile ~/.profile
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
 #sudo vim /usr/share/sddm/scripts/Xsetup # deactivate laptop monitor
 
-
 ###
 sudo apt install -y tldr xsel htop firefox-esr
 
-## git clone dt wallpapers
-## 
+# wallpapers
+git clone https://gitlab.com/dwt1/wallpapers.git ~/Pictures
