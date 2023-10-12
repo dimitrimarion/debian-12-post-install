@@ -100,6 +100,10 @@ sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code
 
+
+# autostart X at login
+cp config/.profile ~/.profile
+
 # Deactivate laptop monitor if external connected 
 # https://wiki.archlinux.org/title/xrandr #Toggle_external_monitor
 #sudo vim /usr/share/sddm/scripts/Xsetup # deactivate laptop monitor
