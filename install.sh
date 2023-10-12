@@ -10,7 +10,7 @@ cp config/i3/* ~/.config/i3
 sudo dpkg-reconfigure keyboard-configuration
 
 cp config/user-dirs.dirs ~/.config/
-mkdir data
+mkdir ~/data
 xdg-user-dirs-update
 
 # TODO: configure git
