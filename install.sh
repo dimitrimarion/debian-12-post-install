@@ -12,9 +12,13 @@ sudo dpkg-reconfigure keyboard-configuration
 cp config/user-dirs.dirs ~/.config/user-dirs.dirs
 mkdir ~/data
 mkdir ~/data/Documents
+mkdir ~/data/Downloads
 mkdir ~/data/Pictures
 mkdir ~/data/Music
 mkdir ~/data/Videos
+mkdir ~/Desktop
+mkdir ~/Templates
+mkdir ~/Public
 
 # TODO: configure git
 # TODO: show volume indicator with keyboard
