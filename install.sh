@@ -120,7 +120,7 @@ cp config/.profile ~/.profile
 #sudo vim /usr/share/sddm/scripts/Xsetup # deactivate laptop monitor
 
 ###
-sudo apt install -y tldr xsel htop firefox-esr
+sudo apt install -y tldr xsel htop firefox-esr feh
 
 # wallpapers
 mkdir ~/data/Pictures/wallpapers
