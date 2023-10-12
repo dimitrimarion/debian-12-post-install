@@ -81,9 +81,6 @@ sudo apt install -y keepassxc
 sudo apt install -y docker-compose
 sudo usermod -aG docker $USER
 
-# starship
-curl -sS https://starship.rs/install.sh | sh
-cp config/.bashrc ~/.bashrc
 
 # node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
@@ -113,3 +110,7 @@ sudo apt install -y tldr xsel htop firefox-esr
 
 # wallpapers
 git clone https://gitlab.com/dwt1/wallpapers.git ~/Pictures
+
+# starship
+curl -sS https://starship.rs/install.sh | sh
+cp config/.bashrc ~/.bashrc
