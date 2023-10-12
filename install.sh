@@ -9,6 +9,10 @@ mkdir -p ~/.config/i3
 cp config/i3/* ~/.config/i3
 sudo dpkg-reconfigure keyboard-configuration
 
+cp config/user-dirs.dirs ~/.config/
+mkdir data
+xdg-user-dirs-update
+
 # TODO: configure git
 # TODO: show volume indicator with keyboard
 # TODO: font
@@ -112,7 +116,7 @@ cp config/.profile ~/.profile
 sudo apt install -y tldr xsel htop firefox-esr
 
 # wallpapers
-git clone https://gitlab.com/dwt1/wallpapers.git ~/Pictures
+git clone https://gitlab.com/dwt1/wallpapers.git ~/data/Pictures
 
 # starship
 curl -sS https://starship.rs/install.sh | sh
