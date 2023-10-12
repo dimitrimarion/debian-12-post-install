@@ -123,7 +123,8 @@ cp config/.profile ~/.profile
 sudo apt install -y tldr xsel htop firefox-esr
 
 # wallpapers
-git clone https://gitlab.com/dwt1/wallpapers.git ~/data/Pictures
+mkdir ~/data/Pictures/wallpapers
+git clone https://gitlab.com/dwt1/wallpapers.git ~/data/Pictures/wallpapers
 
 # starship
 curl -sS https://starship.rs/install.sh | sh
