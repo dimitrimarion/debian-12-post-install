@@ -1,5 +1,8 @@
 #!/bin/sh
 
+sudo apt update
+sudo apt upgrade -y
+
 # https://wiki.debian.org/Xorg
 sudo apt install -y xorg i3
 mkdir -p ~/.config/i3
