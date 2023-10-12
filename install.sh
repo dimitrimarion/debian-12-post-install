@@ -125,6 +125,7 @@ sudo apt install -y tldr xsel htop firefox-esr
 # wallpapers
 mkdir ~/data/Pictures/wallpapers
 git clone https://gitlab.com/dwt1/wallpapers.git ~/data/Pictures/wallpapers
+rm ~/data/Pictures/wallpapers/README.md
 
 # starship
 curl -sS https://starship.rs/install.sh | sh
