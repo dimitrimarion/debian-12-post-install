@@ -10,7 +10,7 @@ cp config/i3/* ~/.config/i3
 sudo dpkg-reconfigure keyboard-configuration
 
 cp config/user-dirs.dirs ~/.config/user-dirs.dirs
-mkdir ~/data
+mkdir ~/data
 mkdir ~/data/Documents
 mkdir ~/data/Downloads
 mkdir ~/data/Pictures
