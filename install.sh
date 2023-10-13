@@ -98,7 +98,7 @@ sudo usermod -aG docker $USER
 
 # node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-. ~/.bashrc
+. "$HOME/.bashrc"
 nvm install --lts
 
 # vscode
@@ -111,6 +111,10 @@ sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code
 
+
+# gtk2 theme for pcmanfm and sylpheed
+sudo apt install -y greybird-gtk-theme
+cp config/gtkrc-2.0 ~/.gtkrc-2.0
 
 # autostart X at login
 cp config/.profile ~/.profile
