@@ -113,7 +113,7 @@ sudo apt install code
 
 
 # gtk2 theme for pcmanfm and sylpheed
-sudo apt install -y greybird-gtk-theme
+sudo apt install -y lxappearance greybird-gtk-theme
 cp config/gtkrc-2.0 ~/.gtkrc-2.0
 
 # autostart X at login
