@@ -4,7 +4,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # https://wiki.debian.org/Xorg
-sudo apt install -y xorg i3
+sudo apt install -y xorg i3 picom
 mkdir -p ~/.config/i3
 cp config/i3/* ~/.config/i3
 sudo dpkg-reconfigure keyboard-configuration
