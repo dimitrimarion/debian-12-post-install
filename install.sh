@@ -38,7 +38,7 @@ sudo apt install -y blueman pulseaudio-module-bluetooth
 
 # Hack nerd fonts
 sudo apt install -y curl unzip zip
-curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip
 mkdir -p ~/.local/share/fonts
 unzip Hack.zip -d ~/.local/share/fonts/
 fc-cache
