@@ -98,7 +98,7 @@ sudo usermod -aG docker $USER
 
 
 # node
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 
 # vscode
 sudo apt-get install -y wget gpg
